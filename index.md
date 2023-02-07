@@ -6,13 +6,13 @@ title: "Pendix bike lights"
 
 *Work in progress*
 
-This site contains instructions on how to connect bike lights to a [Pendix|https://pendix.com] e-bike drive.
+This site contains instructions on how to connect bike lights to a [Pendix](https://pendix.com) e-bike drive.
 
 ## General
 
-The [Pendix|https://pendix.com] e-bike retrofit kit is a good way to add e-bike capabilities to traditional bikes. It offers simple installation and supports multiple different frames due to its unique side-mounted motor. This makes it suitable for various cargo bikes as well. One issue with the kit is that it doesn't support any way of connecting bike lights to the battery. On this site I will describe how I was able to connect front and back lights to the battery.
+The [Pendix](https://pendix.com) e-bike retrofit kit is a good way to add e-bike capabilities to traditional bikes. It offers simple installation and supports multiple different frames due to its unique side-mounted motor. This makes it suitable for various cargo bikes as well. One issue with the kit is that it doesn't support any way of connecting bike lights to the battery. On this site I will describe how I was able to connect front and back lights to the battery.
 
-The Pendix battery provides a 48V DC current to the drive. This is delivered over a magnetic [Rosenberger RoPD|https://www.rosenberger.com/product/ropd/] connector in the battery and battery holder. My solution was to tap into this 48V current from within the battery holder housing. Luckily, the casing is easily opened with a couple of Torx screws. The battery holder housing has enough room to add an additional connection to the underside of the RoPD connector using 2 female spade crimp connectors, as well as a fuse for the bike light circuit.
+The Pendix battery provides a 48V DC current to the drive. This is delivered over a magnetic [Rosenberger RoPD](https://www.rosenberger.com/product/ropd/) connector in the battery and battery holder. My solution was to tap into this 48V current from within the battery holder housing. Luckily, the casing is easily opened with a couple of Torx screws. The battery holder housing has enough room to add an additional connection to the underside of the RoPD connector using 2 female spade crimp connectors, as well as a fuse for the bike light circuit.
 
 ## Parts needed
 
@@ -46,7 +46,7 @@ The Pendix battery provides a 48V DC current to the drive. This is delivered ove
 ## Bike lights
 
 There aren't that many 48V bike lights available, so here are some I've found:
-- [Beuchel|https://buechel-online.com/en/bicycle-lighting/] has multiple 48V bike lights both for [front|https://buechel-online.com/en/shiny-80/] and [back|https://buechel-online.com/en/z-fire-mini/] with various [light output levels|https://buechel-online.com/en/shiny-120/]. Not too expensive.
-- [Busch + Muller|https://www.bumm.de/en/products/e-bike-scheinwerfer.html] also has some more 48V front lights. Though these are a bit more expensive.
+- [Beuchel](https://buechel-online.com/en/bicycle-lighting/) has multiple 48V bike lights both for [front](https://buechel-online.com/en/shiny-80/) and [back](https://buechel-online.com/en/z-fire-mini/) with various [light output levels](https://buechel-online.com/en/shiny-120/). Not too expensive.
+- [Busch + Muller)(https://www.bumm.de/en/products/e-bike-scheinwerfer.html) also has some more 48V front lights. Though these are a bit more expensive.
 
 Alternatively you could also add a voltage convertor to use 12V or 24V lights.
