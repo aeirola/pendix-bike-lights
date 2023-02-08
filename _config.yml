@@ -1,4 +1,4 @@
 title: "Pendix bike lights"
 description: "DIY instructions for powering bike lights from the Pendix e-bike battery."
-theme: slate
+remote_theme: pages-themes/slate@v0.2.0
 show_downloads: false
