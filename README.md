@@ -1,7 +1,3 @@
----
-title: "Pendix bike lights"
----
-
 # Pendix bike lights
 
 *Work in progress*
