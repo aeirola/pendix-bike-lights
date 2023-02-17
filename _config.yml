@@ -1,4 +1,14 @@
+domain: aeirola.github.io
+url: https://aeirola.github.io
+baseurl: /pendix-bike-lights
+
 title: "Pendix bike lights"
 description: "DIY instructions for powering bike lights from the Pendix e-bike battery."
+
+markdown: GFM
+
 remote_theme: pages-themes/slate@v0.2.0
 show_downloads: false
+plugins:
+- jemoji
+- jekyll-remote-theme

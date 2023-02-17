@@ -1,6 +1,6 @@
-# Pendix bike lights
+> :information_source: **Note:** Work in progress
 
-*Work in progress*
+> :warning: **Warning:** While this guide doesn't do any irreversible damage to the Pendix system, it will probably void the warranty. So it is good to be familiar with electronics, and know what you are doing before starting.
 
 This site contains instructions on how to connect bike lights to a [Pendix](https://pendix.com) e-bike drive.
 
@@ -9,6 +9,10 @@ This site contains instructions on how to connect bike lights to a [Pendix](http
 The [Pendix](https://pendix.com) e-bike retrofit kit is a good way to add e-bike capabilities to traditional bikes. It offers simple installation and supports multiple different frames due to its unique side-mounted motor. This makes it suitable for various cargo bikes as well. One issue with the kit is that it doesn't support any way of connecting bike lights to the battery. On this site I will describe how I was able to connect front and back lights to the battery.
 
 The Pendix battery provides a 48V DC current to the drive. This is delivered over a magnetic [Rosenberger RoPD](https://www.rosenberger.com/product/ropd/) connector in the battery and battery holder. My solution was to tap into this 48V current from within the battery holder housing. Luckily, the casing is easily opened with a couple of Torx screws. The battery holder housing has enough room to add an additional connection to the underside of the RoPD connector using 2 female spade crimp connectors, as well as a fuse for the bike light circuit.
+
+### Initial power draw
+
+The Pendix battery seems to have some kind of 
 
 ## Parts needed
 
@@ -43,6 +47,10 @@ The Pendix battery provides a 48V DC current to the drive. This is delivered ove
 
 There aren't that many 48V bike lights available, so here are some I've found:
 - [Beuchel](https://buechel-online.com/en/bicycle-lighting/) has multiple 48V bike lights both for [front](https://buechel-online.com/en/shiny-80/) and [back](https://buechel-online.com/en/z-fire-mini/) with various [light output levels](https://buechel-online.com/en/shiny-120/). Not too expensive.
-- [Busch + Muller)(https://www.bumm.de/en/products/e-bike-scheinwerfer.html) also has some more 48V front lights. Though these are a bit more expensive.
+- [Busch + Muller](https://www.bumm.de/en/products/e-bike-scheinwerfer.html) also has some more 48V front lights. Though these are a bit more expensive.
 
 Alternatively you could also add a voltage convertor to use 12V or 24V lights.
+
+## Other alternatives
+
+The Pendix battery has a built in USB-C output for charging a phone etc. This could also be used to power bike lights, but is only rated for 5V 2.1A, which might not be enough for brighter lights. Additionally it requires a separate cable to be plugged every time the battery is mounted.
