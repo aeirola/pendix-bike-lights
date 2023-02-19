@@ -12,7 +12,13 @@ The Pendix battery provides a 48V DC current to the drive. This is delivered ove
 
 ### Initial power draw
 
-The Pendix battery seems to have some kind of 
+The Pendix battery seems to have some kind of short  circuit safety feature which limits the max current allowed wen initially connected. If the power draw is too high, the battery will cut the power. Once the engine has initialized, the full 250W power is available.
+
+This behaviour is unfortunately not documented, so the detailed functionality is not known. The initial power draw seems to be limited to between 1-10W, but further testing would be needed to determine the exact value. If you have more information, please add a mention about it in the discussions.
+
+Additionally, the exact behaviour for initializing the motor is not known. At least turning the pedals will initialize the motor, turning the rear wheel might also do the same.
+
+This limitation mean high power lights need to have some kind of power control. The simplest solution is to use a manual switch for the lights, and only turn them on after touching the pedals. Alternatively, one could possibily identify the motor initialization from the data pins, but that would require additinal investigation.
 
 ## Parts needed
 
@@ -53,4 +59,4 @@ Alternatively you could also add a voltage convertor to use 12V or 24V lights.
 
 ## Other alternatives
 
-The Pendix battery has a built in USB-C output for charging a phone etc. This could also be used to power bike lights, but is only rated for 5V 2.1A, which might not be enough for brighter lights. Additionally it requires a separate cable to be plugged every time the battery is mounted.
+The Pendix battery has a built in USB-C output for charging a phone etc. This could also be used to power bike lights, but is only rated for 5V 1.5A, which might not be enough for brighter lights. Additionally it requires a separate cable to be plugged every time the battery is mounted.
